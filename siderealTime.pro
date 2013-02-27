@@ -1,4 +1,4 @@
-pro siderealTime, yr, mn, dy, jd
+pro julian, yr, mn, dy, jd
 ; This code was written by Aaron Gotlieb for AS 203
 ; The code is modeled after a lab assignment where the formula is adapted from
 
