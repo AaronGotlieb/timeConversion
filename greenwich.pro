@@ -1,6 +1,6 @@
 pro greenwich, yr, mn, dy , hr, min ,sec
-  siderealtime, yr, mn, dy, zdjd
-  siderealtime, yr, 1, 1, ydjd
+  julian, yr, mn, dy, zdjd
+  julian, yr, 1, 1, ydjd
 
 time = hr + (min / 60d) + (min / 3600d)
 t  = ydjd / 36525d
