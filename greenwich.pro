@@ -1,6 +1,6 @@
 pro greenwich, yr, mn, dy , hr, min ,sec
-  julian, yr, mn, dy, zdjd
-  julian, yr, 1, 1, ydjd
+  julian, yr, mn, dy, zdjd ; a function call to julian where day and month are passed in
+  julian, yr, 1, 1, ydjd   ; a function call to julian where january 1 is passed for month and date
 
 time = hr + (min / 60d) + (min / 3600d)
 t  = ydjd / 36525d
