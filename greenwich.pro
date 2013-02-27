@@ -1,4 +1,8 @@
 pro greenwich, yr, mn, dy , hr, min ,sec
+; Aaron Gotlieb, AS 203
+; Apache License 2.0 
+; this function takes as its perameter month, day, hour, min, sec
+; it returns said perameters in GMST format
   julian, yr, mn, dy, zdjd ; a function call to julian where day and month are passed in
   julian, yr, 1, 1, ydjd   ; a function call to julian where january 1 is passed for month and date
 
