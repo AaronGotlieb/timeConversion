@@ -32,6 +32,6 @@ months(9) = "September"
 months(10) = "October"
 months(11) = "November"
 months(12) = "December"
-print, months(mn),long(dy), long(yr), " has a JD of:" , jd
+print, months(mn),long(dy), long(yr), " has a JD of:" , jd  ; this prints the final julian date to the console.
 
 end
